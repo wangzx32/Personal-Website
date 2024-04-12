@@ -1,0 +1,308 @@
+Welcome to my personal website!
+
+This is where you can learn all about me and my interests.
+
+```{=html}
+<style>
+  .like-button {
+    font-size: 18px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    display: flex;
+    align-items: center;
+  }
+  .like-button:hover {
+    background-color: #0056b3;
+  }
+  .background-container {
+    display: inline-block;
+    padding: 20px;
+    background-color: #FFF5FA;
+  }
+  .thumb-icon {
+    margin-right: 5px;
+  }
+</style>
+
+<div class="background-container">
+  <button id="likeButton" class="like-button">
+    <span class="thumb-icon">👍</span> Like
+  </button>
+  <span id="likeCount"></span>
+</div>
+
+<script>
+document.getElementById("likeButton").addEventListener("click", function() {
+  var count = localStorage.getItem("likeCount");
+  count = (count === null) ? 1 : parseInt(count) + 1;
+  localStorage.setItem("likeCount", count);
+  document.getElementById("likeCount").textContent = "Likes: " + count;
+});
+document.addEventListener("DOMContentLoaded", function() {
+  var count = localStorage.getItem("likeCount");
+  document.getElementById("likeCount").textContent = "Likes: " + (count === null ? 0 : count);
+});
+</script>
+
+
+```
+
+<style>
+  /* Add pink background to the outermost container */
+  body {
+    background-color: #FFF5FA; /* Pink background color */
+  }
+
+  .section-heading {
+    color: #69306D;
+  }
+</style>
+
+<h2 class="section-heading">About Me</h2>
+
+
+<div style="display: flex; align-items: center;">
+  <img src="myself_formal.JPG" alt="My Picture" style="width:200px; margin-right: 20px; border-radius: 30px;">
+  <img src="myselfie.JPG" alt="My Selfie" style="width:200px; margin-right: 20px; border-radius: 30px;">
+  
+  <div>
+
+Hello! I am Zixuan Wang. Passionate about the dynamic field of data science, I am a dedicated Data Scientist and Data Analyst fueled by an insatiable curiosity for uncovering valuable insights from intricate datasets. My expertise spans Machine Learning Algorithms, Data Visualization, and Statistical Analysis, honed through hands-on experience in executing projects ranging from Predictive modeling to Regression analysis and Data-Driven Decision-Making.
+
+My journey into the realm of data-driven insights commenced during my undergraduate studies in Statistics, where I unearthed the transformative potential of data in addressing real-world challenges. Since then, I've embarked on a relentless quest to master the craft of data analysis, driven by an unwavering passion for leveraging data to foster innovation and tackle complex problems head-on.
+
+I thrive on pushing the boundaries of what's achievable in this ever-evolving field, driven by a deep-seated desire to make a meaningful impact through data-driven solutions. I am genuinely excited about the prospect of forging connections with fellow data enthusiasts, exchanging insights, and exploring avenues for collaborative ventures. Feel free to reach out - I'm always up for a chat!
+  </div>
+</div>
+
+
+
+<div style="display: flex;">
+  <a href="https://www.linkedin.com/in/zixuan-wang-katherine/" style="margin-right: 10px;">
+    <img src="LinkedIn_icon_circle.svg.png" alt="LinkedIn" style="width:25px;height:25px;">
+  </a>
+
+  <a href="https://www.xiaohongshu.com/user/profile/54e5b1102e1d935fe1851b6a?xhsshare=CopyLink&appuid=54e5b1102e1d935fe1851b6a&apptime=1712816373">
+    <img src="XiaohongshuLOGO.png" alt="Xiaohongshu" style="width:25px;height:25px;">
+  </a>
+  
+  <a href="mailto:wangzx32@g.ucla.edu" style="margin-left: 10px;">
+    <img src="email_icon.png" alt="Email" style="width:30px;height:30px;">
+  </a>
+  
+  <a href="https://drive.google.com/file/d/1Vnk-RrGD25RWY208yHz3oeB59825QyGT/view?usp=sharing" style="margin-left: 7px;">
+    <img src="cv_icon.webp" alt="CV" style="width:30px;height:28px;">
+  </a>
+  
+</div>
+
+<h2 class="section-heading">My Technical Skills</h2>
+
+Python, STATA, R Studio, MATLAB, SQL, Tableau, Google Analytics, AWS Relational Database Service (RDS), SQLite, Microsoft Office (PowerPoint, Excel, Word), HTML, Qlik Sense, Pandas, NumPy, SciPy, PyTorch, TensorFlow, Scikit-Learn, Spark, Flask, Django, Shiny, LLM, NLP
+
+<h2 class="section-heading">My Education</h2>
+
+<details>
+  <summary style="color: black;"> University of California, Los Angeles (UCLA) <img src="UCLA_Bruins_logo.svg.png" alt="UCLA Icon" style="width:80px;height:60px;"> </summary>
+
+  - **Degree & Program**: Master of Applied Statistics and Data Science
+- **Year**: 2022 - 2024
+- **GPA**: 4.0 / 4.0
+- **Courses Taken**: Mathematical Statistics, Computing and Programming, Applied Regression, Methods of Modern Stat, Probability Modeling, Data Management, Tools in Data Science, Machine Learning, Data Visualization, Models in Finance, Multivariate Statistics, Statistical Communication
+  
+  
+</details>
+
+<details>
+  <summary style="color: black;"> University of California, Davis (UC Davis) <img src="uc-davis-aggies-8.svg" alt="UC Davis Icon" style="width:100px;height:80px;"> </summary>
+
+  - **Degree & Majors**: Bachelor of Science with Double Majors in Statistics & Economics 
+- **Year**: 2018 - 2022
+- **GPA**: 3.6 / 4.0
+- **Courses Taken**: 
+  - **Statistics**: Vector Analysis, Regression Analysis, Probability Theory, Abstract Math, Nonparametric Statistics, Analysis of Variance, Statistical Data Science, Applied Linear Algebra, Analysis of Categorical Data, Analysis of Econ Data, Applied Time Series Analysis, Data Technologies, Real Analysis, Math Statistics
+  - **Economics**: Econometrics, Decision Making, Financial Economics, Money and Banking,  Uncertainty, Micro Theory, Macro Theory, International Public Economics, Economic History, 
+  
+</details>
+
+<h2 class="section-heading">My Experience</h2>
+
+<details>
+  <summary style="color: black;"> Data Scientist Intern at HireBeat <img src="hirebeat.png" alt="HireBeat Icon" style="width:70px;height:38px;"> </summary>
+
+  - **Date**: July 2023 - September 2023 
+- **Location**: Jersey City, NJ, US
+- **Summary**: 
+    - Automated ETL pipelines in Python for job requisition and preprocessed data, facilitating Machine Learning modeling.
+    - Utilized Vectorization to extract skill-based keywords and conducted segmented Clustering on 15k+ resumes.
+    - Implemented an automated profile matching system for 10k+ job seekers and hiring entities, employing a multi-tenant scoring approach.
+    - Employed LangChain and OpenAI within Python to execute question answering and construct a proficient chatbot, resulting in a notable 45% enhancement in operational efficiency.
+</details>
+
+
+<details>
+  <summary style="color: black;"> Data Analytics & Business Intelligence Intern at Siemens <img src="siemens-logo.jpg" alt="Siemens Icon" style="width:60px;height:40px;"> </summary>
+
+  - **Date**: July 2021 - August 2021 
+- **Location**: Beijing, China
+- **Department**: IT Data Analytics
+- **Summary**: 
+    - Utilized Agile principles to implement SQL and Tableau solutions for KPI monitoring, driving a 9% increase in customer adoption through iterative development and responsive analysis.
+    - Created an automated Anomaly Detection model for 10+ key metrics, leading weekly stakeholder’s meetings to extract actionable insights for WeChat media promotions. 
+    - Conducted in-depth Funnel Analysis to unveil underlying causes of metric fluctuations, providing data-driven recommendations for digital transition. Achieved an 8% rise in marketing performance and customer retention. 
+    - Conducted quantitative analysis on stock performance, including log-return correlations and probability simulations using Time Series analysis. Constructed minimum variance and tangency portfolios, analyzing through CAPM and APT modeling.
+    - Contributed to the advancement of the DAYU Data Insight internal platform by conducting extensive Business Analysis, implementing A/B testing, and employing visualization techniques to drive data-oriented personalization.
+    - Applied the Kano Model and Classification to classify user requirements, providing a valuable reference for platform developers. 
+
+</details>
+
+<h2 class="section-heading">My Thesis</h2>
+
+<details>
+  <summary style="color: black;"> Statistical Models on Predicting Wildfire </summary>
+
+  - **Date**: January 2024 - Present
+- **Institute**: UCLA
+- **Paper**: still working on it! <img src="SNice.svg.png" alt="Smile Icon" style="width:50px;height:50px;"> 
+
+</details>
+
+<h2 class="section-heading">My Projects</h2>
+
+<details>
+  <summary style="color: black;"> Multivariate Analysis of Pizza Dataset </summary>
+
+  - **Date**: January 2024 - March 2024
+- **Institute**: UCLA
+- **Paper**: [GoogleDoc](https://drive.google.com/file/d/1P6JBxAuGrf2Y2OXIS0HUPdRkuJ8DpGZV/view?usp=sharing)
+- **Abstract**: 
+
+This study delves into the complex nutritional attributes of various pizza samples by analyzing data from 'Pizza.csv'. Through multivariate analysis techniques including Principal Component Analysis (PCA) and Factor Analysis (FA), the research investigates the interrelationships between moisture, protein, fat, ash, sodium, carbohydrates, and calorie content per 100 grams of pizza. A comprehensive dataset comprising 300 samples and spanning nine variables enables a detailed nutritional profile assessment across different pizza brands.
+
+The PCA results highlight the dominant variables influencing pizza nutrition, with carbohydrates, moisture, and fat exhibiting substantial variance. PCA reveals that the first two principal components collectively explain 92.32% of the total sample variance, suggesting strong data representation. PC1 primarily represents nutrient density, while PC2 reflects caloric hydration. FA further uncovers underlying factors explaining correlations among nutritional variables, revealing distinct dimensions of nutritional composition, such as overall composition, moisture distribution, and nutrient contrasts.
+
+Applying varimax rotation to the factor solution enhances the clarity and interpretability of nutritional patterns. Despite a slight decrease in explained variance post-rotation, the redistributed variance enhances factor interpretability. The Maximum Likelihood Estimates (MLE) approach corroborates PCA findings, underscoring the significance of certain nutritional dimensions common across pizzas.
+
+Overall, this study provides valuable insights for consumers, industry professionals, and policymakers regarding pizza nutrition. While acknowledging study limitations, such as potential dataset biases, future research avenues could explore additional factors influencing nutritional composition and integrate qualitative data for enhanced understanding. By leveraging multivariate statistical techniques, this research contributes to a nuanced understanding of pizza nutrition and lays a foundation for further investigation.
+
+</details>
+
+<details>
+  <summary style="color: black;"> Portfolio Construction and Risk Assessment in Financial Markets </summary>
+
+  - **Date**: January 2024 - March 2024
+- **Institute**: UCLA
+- **Paper**: [GoogleDoc](https://drive.google.com/file/d/1tvEUg-dtg_-MVp8spsnPx-4Z1qX_SiIi/view?usp=sharing)
+- **Summary**: 
+
+This stock data in this porject spans from January 2012 to December 2023 and the project goal involves constructing portfolios comprising stocks, ETFs, and risk-free assets, rebalancing them semi-annually. The portfolios include minimum variance, tangency, and targeted return portfolios.
+
+The analysis evaluates portfolio Sharpe ratios and sectoral weights over time, examines portfolio pricing relative to the market, calculates Value at Risk (VaR) and confidence intervals for 1-day horizon, and extends VaR analysis for a 6-month horizon.
+
+Additionally, the project explores the relationship between the price of a zero-coupon bond and prevailing interest rates.
+
+Overall, the project offers insights into portfolio management, asset pricing, and risk assessment techniques in financial markets.
+
+</details>
+
+<details>
+  <summary style="color: black;"> Prediction of CO2 Emissions of Cars </summary>
+
+  - **Date**: September 2022 - November 2022
+- **Institute**: UCLA
+- **Paper**: [GoogleDoc](https://drive.google.com/file/d/1crYCGfrfrnJTA_DFsfemJhuMxZ7gibD-/view?usp=sharing)
+- **Summary**: 
+  - Conducted CO2 emissions prediction for Canadian car sales in 2022, utilizing Linear Regression on 946 observations with 5 predictors.
+  - Investigated interaction effects between variables, enhancing model depth and predictive accuracy. 
+  - Utilized ANOVA table for significant predictor selection, incorporating Cross-Validation to compare model performance. 
+  - Ensured model validity through comprehensive assumption checks: residual plots, normal QQ plots, scale location plots, variance inflation factor analysis, Fisher Test, and Non-constant Variance Score Test. 
+  - Determined the optimal model, concluding a 10% increase in engine size correlates with a 4.863% rise in car CO2 emissions (g/km).
+
+</details>
+
+<details>
+  <summary style="color: black;"> Key Indicators of Heart Disease </summary>
+
+  - **Date**: November 2022 - December 2022
+- **Institute**: UCLA
+- **Paper**: [GoogleDoc](https://drive.google.com/file/d/1YQInO2R6Coot1FE2nvyucpUvEP22NJcd/view?usp=sharing)
+- **Summary**: 
+  - Conducted a thorough investigation of 17 variables to discern their significant impact on heart disease likelihood. 
+  - Expertly managed outliers, assessed influential points, and addressed multicollinearity concerns. Employed Random Forest feature selection to determine key predictors. 
+  - Generated and presented informative visuals, such as odds ratio, residual plots, marginal model plot, and ROC curve, to stakeholders. 
+  -	Formulated and meticulously compared diverse logistic models, calculating essential metrics including AUC, accuracy, and Pseudo R-squared to gauge model performance.
+
+</details>
+
+<details>
+  <summary style="color: black;"> Rent Forecasting: An Analysis on the Classified Apartment for Rent in the USA </summary>
+
+  - **Date**: September 2023 - November 2023
+- **Institute**: UCLA
+- **Paper**: [GoogleDoc](https://drive.google.com/file/d/1p0EwGhoEwIW7OLyTfATgzlFdFn0hgewx/view?usp=sharing)
+- **Summary**: 
+  - Predicted the price per square footage using linear regression model using factors: number of bedroom, number of bathroom, and states.
+  - Deeply investigate California and Texas state and add major cities in the two states.
+  - Check assumptions of linearity, normality, homoscedasticity, and outliers by using the plot function in R.
+  -	Create data visualization of the predicted price per square footage by using ggplot
+
+</details>
+
+<h2 class="section-heading">My Dog!!</h2>
+His name is DaBai. He is 8 years old!
+<div style="display: flex;">
+  <img src="mydog1.JPG" alt="My Dog1" style="width:110px; height: auto; margin-right: 20px; border-radius: 10px;">
+  <img src="mydog2.JPG" alt="My Dog2" style="width:110px; height: auto; margin-right: 20px; border-radius: 10px;">
+  <img src="mydog3.JPG" alt="My Dog3" style="width:135px; height: auto; margin-right: 20px; border-radius: 10px;">
+  <img src="mydog4.JPG" alt="My Dog4" style="width:140px; height: auto; margin-right: 20px; border-radius: 10px;">
+</div>
+
+<h2 class="section-heading"> My Life</h2>
+```{=html}
+<div style="display: flex; flex-wrap: wrap; gap: 20px;">
+
+  <!-- Traveling -->
+  <div style="flex: 1; text-align: center;">
+    <h3>Traveling</h3>
+    <img src="myself_beach.jpg" alt="Travel Photo" style="width:200px; border-radius: 30px;">
+    <p>I love exploring new places and experiencing different cultures. Here's a photo from my recent trip to Miami. I really like beaches. I also went to Cancun, Hawaii, Maldives, Phuket Island, Hainan, Okinawa, and Jeju before.</p>
+  </div>
+
+  <!-- Right side -->
+  <div style="flex: 3; display: flex; flex-wrap: wrap;">
+
+    <!-- First row -->
+    <div style="flex: 1; text-align: center;">
+      <h3>Badminton</h3>
+      <img src="badminton.jpeg" alt="Badminton Photo" style="width:200px; border-radius: 10px;">
+      <p>Badminton is one of my favorite sports. It's a great way to stay active and have fun with friends.</p>
+    </div>
+
+    <div style="flex: 1; text-align: center;">
+      <h3>Mahjong</h3>
+      <img src="mahjong_photo.jpg" alt="Mahjong Photo" style="width:200px; border-radius: 10px;">
+      <p>I enjoy playing Mahjong with family and friends. It's a fun and strategic game that brings people together.</p>
+    </div>
+
+    <!-- Second row -->
+    <div style="flex: 1; text-align: center;">
+      <h3>Gaming</h3>
+      <img src="gaming.jpg" alt="Gaming Photo" style="height: 130px; width:auto; border-radius: 10px;">
+      <p>I enjoy playing Honor of Kings when I have free time. I ranked in the top 100 in Haidian, Beijing.</p>
+    </div>
+
+    <div style="flex: 1; text-align: center;">
+      <h3>Nails</h3>
+      <img src="nails.jpeg" alt="Nails Photo" style="height: 150px; width:auto; border-radius: 10px;">
+      <p>I do a lot of pretty nail designs for myself.</p>
+    </div>
+
+  </div>
+</div>
+
+
+
+```
