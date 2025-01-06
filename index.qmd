@@ -164,9 +164,10 @@ Python, R Studio, MATLAB, SQL, Tableau, Google Analytics, PowerBI, AWS Relationa
 <details>
   <summary style="color: black;"> Statistical Models on Predicting Wildfire </summary>
 
-  - **Date**: January 2024 - Present
+  - **Date**: January 2024 - December 2024
 - **Institute**: UCLA
-- **Paper**: still working on it! <img src="img/SNice.svg.png" alt="Smile Icon" style="width:50px;height:50px;"> 
+- [You can view from here](https://escholarship.org/uc/item/44j0g4pk)
+- **Citation**: Wang, Z. (2024). Analyzing the Dynamics of Wildfires: Causes, Patterns, and Predictive Modeling of Large and Small Fires in the United States. UCLA. ProQuest ID: Wang_ucla_0031N_23645. Merritt ID: ark:/13030/m5kb4nbz. Retrieved from https://escholarship.org/uc/item/44j0g4pk
 
 </details>
 
