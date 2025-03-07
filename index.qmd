@@ -89,7 +89,7 @@ I thrive on pushing the boundaries of what's achievable in this ever-evolving fi
     <img src="img/XiaohongshuLOGO.png" alt="Xiaohongshu" style="width:25px;height:25px;">
   </a>
   
-  <a href="mailto:wangzx32@g.ucla.edu" style="margin-left: 10px;">
+  <a href="mailto:wangkatherine2000@gmail.com" style="margin-left: 10px;">
     <img src="img/email_icon.png" alt="Email" style="width:30px;height:30px;">
   </a>
   
@@ -129,6 +129,22 @@ Python, R Studio, MATLAB, SQL, Tableau, Google Analytics, PowerBI, AWS Relationa
 </details>
 
 <h2 class="section-heading">My Experience</h2>
+
+<details>
+  <summary style="color: black;"> Data Analyst Lead at A Round Entertainment <img src="img/a_round_ent_logo.jpeg" alt="A Round Entertainent Icon" style="width:70px;height:38px;"> </summary>
+
+  - **Date**: February 2024 - Present
+- **Location**: Remote
+- **Summary**: 
+    - Conduct in-depth market research on Asian American dating preferences and analyze potential user demographics and behavior to guide product development.
+    - Set up and track key metrics and create dashboards and reports to monitor app performance and inform strategic decisions.
+    - Analyze user interaction data, engagement metrics, social media trends, and marketing performance to extract insights that drive business and product decisions.
+    -	Perform data analysis and visualization to provide insights and recommendations for JOOPI’s features, optimizing user engagement before and after launch.
+    -	Collaborate with software engineers to analyze user interaction data, identify experience issues, and suggest data-driven improvements for product refinement.
+
+    
+</details>
+
 
 <details>
   <summary style="color: black;"> Data Scientist Intern at HireBeat <img src="img/hirebeat.png" alt="HireBeat Icon" style="width:70px;height:38px;"> </summary>
@@ -253,7 +269,7 @@ Overall, the project offers insights into portfolio management, asset pricing, a
 </details>
 
 <h2 class="section-heading">My Dog!!</h2>
-His name is DaBai. He is 8 years old!
+His name is DaBai. He is 9 years old!
 <div style="display: flex;">
   <img src="img/mydog1.jpg" alt="My Dog1" style="width:110px; height: auto; margin-right: 20px; border-radius: 10px;">
   <img src="img/mydog2.jpg" alt="My Dog2" style="width:110px; height: auto; margin-right: 20px; border-radius: 10px;">
