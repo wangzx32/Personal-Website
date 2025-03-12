@@ -131,7 +131,7 @@ Python, R Studio, MATLAB, SQL, Tableau, Google Analytics, PowerBI, AWS Relationa
 <h2 class="section-heading">My Experience</h2>
 
 <details>
-  <summary style="color: black;"> Data Analyst Lead at A Round Entertainment <img src="img/a_round_ent_logo.jpeg" alt="A Round Entertainent Icon" style="width:70px;height:38px;"> </summary>
+  <summary style="color: black;"> Data Analyst Team Lead at A Round Entertainment <img src="img/a_round_ent_logo.jpeg" alt="A Round Entertainent Icon" style="width:40px;height:40px;"> </summary>
 
   - **Date**: February 2024 - Present
 - **Location**: Remote
